@@ -1,6 +1,6 @@
 import os
-import yaml
-from soup2dict import convert
+import yaml #to convert str to dict
+from soup2dict import convert # to convert html to dict
 import requests # to sent GET requests
 from bs4 import BeautifulSoup # to parse HTML
 
