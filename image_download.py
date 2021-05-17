@@ -1,3 +1,7 @@
+#this parser is not mine, i just modificate it in 2021, beacuse Google changed html code and old code doesn't work
+#the original https://www.youtube.com/watch?v=t2k5Lsbpj8Y&t=322s
+#things you need to install
+#pip install PyYAML; pip install requests; pip install soup2dict; pip install bs4
 import os
 import yaml #to convert str to dict
 from soup2dict import convert # to convert html to dict
